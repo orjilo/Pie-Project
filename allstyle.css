@@ -1,0 +1,113 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS';
+    background-color: white;
+}
+.top-bar{
+    background: rgb(88, 9, 9);
+    height: 2.3rem;
+    padding: .5rem 0;
+    
+}
+.col-12{
+    background-color: rgb(88, 9, 9);
+}
+.card{
+    border: none;
+}
+.top-bar a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.h3{
+    color: rgb(88, 9, 9);
+}
+.btn:hover{
+    background-color: rgb(88, 9, 9);
+    color: white;
+}
+span.amount{
+    font-size: 30px;
+}
+.text-center h2{
+    font-family: 'Reem Kufi', sans-serif;
+    
+}
+ul.social{
+    list-style-type: none;
+    display: flex;
+    max-width: 18rem;
+    margin: 0 auto;
+}
+ul.social li{
+    margin: 0 auto;
+}
+.socket{
+    background-color:  rgb(88, 9, 9);
+}
+.socket a{
+    color: white;
+    text-decoration:none;
+}
+span p{
+    font-family: 'Segoe UI', Tahoma;
+}
+.para p{
+    font-size: 20px;
+    color: black;
+}
+.link a{
+    color: white;
+}
+.link .btn{
+    background-color: rgb(88, 9, 9);
+    
+}
+.link a{
+    color: white;
+}
+.socket{
+    background-color:  rgb(88, 9, 9);
+}
+.socket a{
+    color: white;
+    text-decoration:none;
+    font-size: 1rem;
+}
+span p{
+    font-family: 'Segoe UI', Tahoma;
+}
+
+ul.social{
+    list-style-type: none;
+    display: flex;
+    max-width: 18rem;
+    margin: 0 auto;
+}
+ul.social li{
+    margin: 0 auto;
+}
+.social img{
+    height: 2rem;
+}
+
+.navbar-brand img{
+    height: 3rem;
+}
+
+.navbar .nav-item:not(:last-child){
+    margin-right: 20px;
+}
+.dropdown-toggle::after {
+    transition: transform 0.15s linear; 
+ }
+  
+ .show.dropdown .dropdown-toggle::after {
+   transform: translateY(3px);
+ }
+ .product-bottom {
+     color: rgba(255, 0, 0, 0.699);
+ }
+ .card{
+     border: none;
+ }

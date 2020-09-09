@@ -1,0 +1,76 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS';
+    color: #616971;
+}
+.top-bar{
+   background: rgb(88, 9, 9);
+   height: 2.3rem;
+   padding: .5rem 0;
+   
+}
+.top-bar a{
+   color:whitesmoke;
+   text-decoration: none;
+}
+
+.navbar-brand img{
+    height: 3rem;
+}
+
+.navbar .nav-item:not(:last-child){
+    margin-right: 20px;
+}
+.dropdown-toggle::after {
+    transition: transform 0.15s linear; 
+ }
+  
+ .show.dropdown .dropdown-toggle::after {
+   transform: translateY(3px);
+ }
+ 
+ .para{
+    background-color: rgb(88, 9, 9);
+}
+.paras h3{
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.paras p{
+   font-size: 20px;
+   color: black;
+}
+.paras .btn{
+    border-radius: 3rem;
+}
+.link .btn{
+   background-color: rgb(88, 9, 9);
+   
+}
+.link a{
+   color: white;
+}
+.socket{
+   background-color:  rgb(88, 9, 9);
+}
+.socket a{
+   color: white;
+   text-decoration:none;
+   font-size: 1rem;
+}
+span p{
+   font-family: 'Segoe UI', Tahoma;
+}
+
+ul.social{
+   list-style-type: none;
+   display: flex;
+   max-width: 18rem;
+   margin: 0 auto;
+}
+ul.social li{
+   margin: 0 auto;
+}
+.social img{
+   height: 2rem;
+}

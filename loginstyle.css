@@ -1,0 +1,22 @@
+body{
+    background-color:  rgb(88, 9, 9);
+}
+.navbar-brand img{
+    height: 8rem;
+}
+
+.btn{
+    border-radius: 2rem;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+h1{
+    font-family:'Reem Kufi', sans-serif;
+    ;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}

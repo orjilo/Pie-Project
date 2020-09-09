@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href=" cart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Libre+Caslon+Display&family=Tajawal&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Reem+Kufi&family=Righteous&family=Scheherazade&display=swap" rel="stylesheet">
+    <title>Checkout</title>
+    <link rel="shortcut icon" href="/images/icon.jpg">
+</head>
+<body>
+    
+
+
+
+
+    <div class="top-bar ">
+        <div class=" float-right text-right mr-5 p">
+         <div  class="row">    
+          
+           <a href="login.html" class="px-4"><i class="fa fa-user-circle">
+           </i>       
+               Sign Up</a>
+
+               <a href="checkout.html" ><i class="fa fa-shopping-cart">
+               </i>       
+                   Cart</a>
+
+         </div>
+        </div>
+   </div>  
+     
+ 
+ <!--End Top Bar-->
+
+
+ <!--Navigation-->
+ <nav class="navbar navbar-expand-lg navbar-light bg-white">
+   <div class="container">
+   <a href="index.html" class="navbar-brand"><img src="/images/logo.png" alt="logo" title="logo"></a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+     <ul class="navbar-nav ml-auto ">
+       <li class="nav-item"><a class="nav-link active text-danger" href="#">Home <span class="sr-only">(current)</span></a></li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Pies
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="#">Cheese cakes</a>
+           <a class="dropdown-item" href="#">Fruit pies</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="allpies.html">View all pies</a>
+         </div>
+       </li>
+       <li class="nav-item"><a class="nav-link text-danger" href="about.html">About</a></li>
+       <li class="nav-item"><a class="nav-link text-danger" href="contact.html">Contact Us</a></li>
+     </ul>
+   </div>
+ </div>
+ </nav>
+
+
+    <div class="">
+        <!-- For demo purpose -->
+        <div class="container col-lg-12  para text-white py-5 text-center">
+          <h1 class="display-4">Pie Shop shopping cart</h1>
+          <p class="lead mb-0 text-white">It's an “add to cart” kind of day. </p>
+        </div>
+        <!-- End -->
+      
+        <div class="pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 p-5 body mt-2 rounded shadow-sm mb-5">
+      
+                <!-- Shopping cart table -->
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="border-0 ">
+                          <div class="p-2 px-3 text-uppercase">Product (Pie) </div>
+                        </th>
+                        <th scope="col" class="border-0 ">
+                          <div class="py-2 text-uppercase">Price</div>
+                        </th>
+                        <th scope="col" class="border-0">
+                          <div class="py-2 text-uppercase">Quantity</div>
+                        </th>
+                        <th scope="col" class="border-0 ">
+                          <div class="py-2 text-uppercase">Remove</div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="border-0">
+                          <div class="p-2">
+                            <img src="/images 2/tart-2554401_960_720.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                            <div class="ml-3 d-inline-block align-middle">
+                              <h5 class="mb-0"> <a href="#" class="text-danger d-inline-block align-middle">Cinnamon Pie</a></h5><span class="text-muted font-weight-normal font-italic d-block">Category: Cheese Cakes</span>
+                            </div>
+                          </div>
+                        </th>
+                        <td class="border-0 align-middle"><strong>$79.00</strong></td>
+                        <td class="border-0 align-middle"><strong>3</strong></td>
+                        <td class="border-0 align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                          <div class="p-2">
+                            <img src="/images 2/cake-4117291_960_720.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                            <div class="ml-3 d-inline-block align-middle">
+                              <h5 class="mb-0"><a href="#" class="text-danger d-inline-block">Cinnamon Pie</a></h5><span class="text-muted font-weight-normal font-italic">Category: Fruit Pies</span>
+                            </div>
+                          </div>
+                        </th>
+                        <td class="align-middle"><strong>$79.00</strong></td>
+                        <td class="align-middle"><strong>3</strong></td>
+                        <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                          <div class="p-2">
+                            <img src="/images 2/pumpkin-pie-520655__340.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                            <div class="ml-3 d-inline-block align-middle">
+                              <h5 class="mb-0"> <a href="#" class="text-danger d-inline-block">Cinnamon Pie</a></h5><span class="text-muted font-weight-normal font-italic">Category: Fruit Pies</span>
+                            </div>
+                          </div>
+                          <td class="align-middle"><strong>$79.00</strong></td>
+                          <td class="align-middle"><strong>3</strong></td>
+                          <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+                          </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- End -->
+              </div>
+            </div>
+      
+            <div class="row py-5 p-4 paras rounded shadow-sm">
+              <div class="col-lg-12 text-dark paras">
+                <div class=" rounded-pill px-4 py-3 text-uppercase text-danger font-weight-bold">Order summary </div>
+                <div class="p-4">
+                  <p class="font-italic mb-4">Shipping and additional costs are calculated based on values you have entered.</p>
+                  <ul class="list-unstyled mb-4">
+                    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Order Subtotal </strong><strong>$390.00</strong></li>
+                    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping and handling</strong><strong>$10.00</strong></li>
+                    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Tax</strong><strong>$0.00</strong></li>
+                    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong>
+                      <h5 class="font-weight-bold">$400.00</h5>
+                    </li>
+                  </ul><a href="#" class="btn text-white rounded-pill py-2 btn-block">Procceed to checkout</a>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+
+
+      <footer >
+        <div class="container ext">
+          <div class="row align-items-center text-center pt-3">
+    
+            <div class=" col-lg-6 text-lg-left par text-danger ">
+              <h1>Get Email Updates</h1>
+              <p>Sign up for email updates to earn free pizza and get <br>deals delivered right
+                to your inbox</p>
+            </div>
+            <div class="col-lg-6 link text-center text-lg-right">
+              <a href="signup.html" class="btn   btn-outline-dark ">SIGN UP FOR OUR E-MAIL UPDATES</a>
+            </div>
+              
+            
+          </div>
+        </div>
+      </footer>
+    
+      <div class="socket text-light  text-center pt-3 mt-3 ">
+        <p>&copy; <a href="" target="_blank">Pieshop.com</a></p>
+        <a href=""><span class="ext">© Copyright 2020 Pieshop.com, LLC . Privacy Policy </span></a>
+        <div class="container">
+          <div class="row text-white footer text-center justify-content-center">
+            <div class=" col-sm-10 col-md-8 col-lg-6">
+                <ul class="social ">
+                  <li><a href="" ><span class="mr-3"><img src="/images/172-1725109_like-share-follow-and-subscribe-png-download-facebook.png" ></span></a></li>
+                  <li><a href="" ><span class="mr-3"><img src="/images/twitter-icon-black-transparent-27.jpg" ></span></a></li>
+                  <li><a href="" ><span class="mr-3"><img src="/images/70029-logo-media-instagram-jpeg-social-free-frame-thumb.png" ></span></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

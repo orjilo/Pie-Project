@@ -1,0 +1,50 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS';
+    color: #616971;
+    background-color: #6169713f;
+}
+.top-bar{
+    background: rgb(88, 9, 9);
+    height: 2.3rem;
+    padding: .5rem 0;
+    
+}
+.top-bar a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.navbar-brand img{
+    height: 3rem;
+}
+.card{
+    background-color: white;
+}
+.navbar .nav-item:not(:last-child){
+    margin-right: 20px;
+}
+.dropdown-toggle::after {
+    transition: transform 0.15s linear; 
+ }
+  
+ .show.dropdown .dropdown-toggle::after {
+   transform: translateY(3px);
+ }
+ .btn{
+    background-color: rgb(88, 9, 9);
+    color: white;
+}
+.btn:hover{
+    background-color: rgba(88, 9, 9, 0.932);
+}
+span.amount{
+    font-size: 30px;
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}

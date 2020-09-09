@@ -1,0 +1,15 @@
+body{
+    background-color:  rgb(88, 9, 9);
+}
+.form-row img{
+    height: 8rem;
+}
+h1{
+    font-family:'Reem Kufi', sans-serif;
+
+
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
